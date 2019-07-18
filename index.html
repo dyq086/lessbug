@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <meta name="viewport" content="width=device-width" initial-scale=1 user-scalable=0 />
+</head>
+<!-- <script src="https://js.fundebug.cn/fundebug.1.9.0.min.js" apikey="ae564cb202f380fc43cd54f5cf2e42036b389aee15985b0b97a3a5f424ed5092"></script>
+ -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="app">
+        <img class="aaa" src="//baidu.com/test.js" alt="图片加载中" />
+        <button onclick="myFunction()">异常</button>
+    </div>
+    <!-- <script src="www.baidu.com/testDDF.js"></script> -->
+</body>
+<script type="text/javascript">
+// var xhr = new XMLHttpRequest();
+// xhr.open('GET', 'wrong/xhrError');
+// xhr.responseType = 'json';
+// xhr.send();
+// xhr.onload = function() {
+//     console.log(xhr.response);
+// };
+// xhr.onerror = function() {
+//     console.log("Oops, error");
+// };
+function myFunction() {
+    $.ajax({
+        type: "get",
+        url: "/dfdfd",
+        data:{
+            a:1,
+            b:2
+        }
+
+    });
+aadfdfdfd
+}
+
+// ss
+</script>
+
+</html>

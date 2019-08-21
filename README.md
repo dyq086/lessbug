@@ -24,7 +24,6 @@ Netflix 开启 Gzip 性能提升 13.25% 带宽减少50%
 尽管性能很重要，开发迭代过程中难免会有所忽视，性能会伴随产品的迭代而有所衰减。特别在移动端，网络一直是一个很大的瓶颈，而页面却越来越大，功能越来越复杂。并没有简单的几条黄金规则就可以搞定性能优化工作，我们需要一套性能监控系统持续监控、评估、预警页面性能状况、发现瓶颈，指导优化工作的进行。
 
 
-###  后端项目地址：https://github.com/dyq086/monitor-server
 
 ### 前置工作准备
 前端技术栈：yarn + webpack4 + ES6 + babel + Lodash + npx 等
@@ -42,17 +41,17 @@ $ yarn add lessbug
 ```
 import lessbug from 'lessbug'
 lessbug.init({
-	host:127.0.0.1:7001//后端host 必填
+	host:http://127.0.0.1:7001//后端host 必填
 });
 
 //vue 项目
 import Vue from 'vue'
 import lessbug from 'lessbug'
 vue.use(lessbug,{
-	host:127.0.0.1:7001//后端host 必填
+	host:http://127.0.0.1:7001//后端host 必填
 });
 
 ```
 
-
+###  后端项目地址：https://github.com/dyq086/monitor-server
 

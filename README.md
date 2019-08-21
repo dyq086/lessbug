@@ -28,7 +28,7 @@ Netflix 开启 Gzip 性能提升 13.25% 带宽减少50%
 ### 前置工作准备
 前端技术栈：yarn + webpack4 + ES6 + babel + Lodash + npx 等
 
-依赖管理工具：yarn （yarn相比npm 个人强烈推荐使用yarn 在使用上无论是体验速度还是性能要优越于npm 具体参考文档 https://yarn.bootcss.com/）
+依赖管理工具：yarn （yarn相比npm 个人强烈推荐使用yarn 在使用上无论是体验速度还是性能要优越于npm 具体参考文档 https://yarn.bootcss.com/ ）
 
 
 1、项目安装依赖

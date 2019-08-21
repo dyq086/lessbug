@@ -2,7 +2,7 @@
  * @Author: yongqing
  * @Date:   2019-05-30 09:43:35
  * @Last Modified by:   yongqing
- * @Last Modified time: 2019-07-18 15:53:27
+ * @Last Modified time: 2019-08-21 12:24:17
  */
 
 import { sendData } from './sdk/utils'
@@ -27,12 +27,15 @@ var _hmt = _hmt || [];
 })();
 
 const lessBug = {
-    install(Vue) {
-        this.init(Vue);
+    install(Vue, option) {
+        this.initCatchError(Vue, option);
     },
-    init(Vue) {
+    init(option) {
+        this.initCatchError(null, option)
+    },
+    initCatchError(Vue, option) {
         catchError.init({
-            url: `${defaultHost}/api/v1/report_js_error`,
+            url: `${option.host}/api/v1/report_js_error`,
             jsError: true,
             vueError: true,
             resourceError: true,

@@ -1,6 +1,6 @@
 {
   "name": "lessbug",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "keyword": ["前端性能监控平台","monitor","lessbug"],
   "repository": {

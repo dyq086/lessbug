@@ -45,7 +45,7 @@ lessbug.init({
 	host:127.0.0.1:7001//后端host 必填
 });
 
-vue 项目
+//vue 项目
 import Vue from 'vue'
 import lessbug from 'lessbug'
 vue.use(lessbug,{

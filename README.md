@@ -57,4 +57,4 @@ vue.use(lessbug,{
 
 ### 参考
 
-[https://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/]
+https://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/

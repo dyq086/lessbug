@@ -55,3 +55,6 @@ vue.use(lessbug,{
 
 ###  后端项目地址：https://github.com/dyq086/monitor-server
 
+### 参考
+
+[https://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/]
